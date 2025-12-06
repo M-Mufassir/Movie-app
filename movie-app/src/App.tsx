@@ -1,15 +1,23 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <main>
+      <div className='pattern'>
+        <div className='wrapper'>
+          <header>
+            <img src="/hero.png" alt="Hero" />
+            <h1> 
+              Find <span className='text-gradient'>Movies</span> You'll Enjoy Without The Hassle
+            </h1>
+          </header>
+
+          
+
+        </div>
+
+      </div>
+    </main>
   )
 }
 
